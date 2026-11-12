@@ -13,7 +13,7 @@ if [[ -n $1 ]]; then
 		exit 1
 	fi
 else 
-	echo 'done' #checking if it works
+	echo 'Usage: ./check.sh <host>' 
 	exit 2  	
 fi
 
